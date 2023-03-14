@@ -13,8 +13,9 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script></title>
 </head>
@@ -39,7 +40,7 @@
 		  <div class="nav__content">
 			<ul class="nav__list">
 			  <li class="nav__list-item active-nav"><a href="#" class="hover-target">Home</a></li>
-			  <li class="nav__list-item"><a href="#" class="hover-target">Galaxy</a></li>
+			  <li class="nav__list-item"><a href="#solar-system" class="hover-target">Solar-System</a></li>
 			  <li class="nav__list-item"><a href="#" class="hover-target">Planet</a></li>
 			  <li class="nav__list-item"><a href="#" class="hover-target">Game</a></li>
 			  <li class="nav__list-item"><a href="#" class="hover-target">About</a></li>
@@ -60,11 +61,15 @@
 		  </div>
 		  <div class="scroll animate__animated animate__fadeIn animate__slower animate__delay-2s" id="serol">
 			<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-			<lottie-player src="comp 1.json"  background="transparent"  speed="1.3" id="serol"  style="width: 5vw; height: 5vw; margin-left:73%; margin-top: 4%"  loop autoplay ></lottie-player>
+			<a href="#solar-system"><lottie-player src="comp 1.json"  background="transparent"  speed="1.3" id="serol"  style="width: 5vw; height: 5vw; margin-left:73%; margin-top: 4%"  loop autoplay  ></lottie-player></a>
+			
 		  </div>
-		  <div class="solar-system items-center flex flex-col mt-[30%]" style="">
-			<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">This is what our Solar System look alike</h1>
+		  
+		  <div class="solar-system items-center flex flex-col mt-[30%]" style="" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true">
+			<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;" >This Is What Our Solar System Look Alike</h1>
+			<div  id="solar-system" class="mt-[-200px]"></div>
 		  </div>
+		 
 	  </div>
 	  
 
@@ -74,9 +79,9 @@
 		<div class='cursor3' id="cursor3"></div>
 
 
-		<section class="clearfix">
+		<section class="clearfix" >
 
-			<ul class="solarsystem">
+			<ul class="solarsystem" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true">
 			  <li class="sun"><a href="#sun"><span>Sun</span></a></li>
 			  <li class="mercury"><a href="#mercury"><span>Mercury</span></a></li>
 			  <li class="venus"><a href="#venus"><span>Venus</span></a></li>
@@ -87,10 +92,9 @@
 			  <li class="saturn"><a href="#saturn"><span>Saturn &amp; <span class="ring">Ring</span></span></a></li>
 			  <li class="uranus"><a href="#uranus"><span>Uranus</span></a></li>
 			  <li class="neptune"><a href="#neptune"><span>Neptune</span></a></li>
-			  <li class="pluto"><a href="#pluto"><span>Pluto</span></a></li>
 			</ul>
 			
-			<ul id="descriptions">
+			<ul id="descriptions" class="hover-target" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true">
 				<li>
 				<h2 id="sun">Sun</h2>
 				<p>The Sun is a star, a hot ball of glowing gases at the heart of our solar system. Its influence extends far beyond the orbits of distant Neptune and Pluto. Without the Sun's intense energy and heat, there would be no life on Earth. And though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.</p>
@@ -135,11 +139,6 @@
 				<h2 id="neptune">Neptune</h2>
 				<p>Nearly 4.5 billion kilometers (2.8 billion miles) from the Sun, Neptune orbits the Sun once every 165 years. It is invisible to the naked eye because of its extreme distance from Earth. Interestingly, the unusual elliptical orbit of the dwarf planet Pluto brings Pluto inside Neptune's orbit for a 20-year period out of every 248 Earth years</p>
 				</li>
-				
-				<li>
-				<h2 id="pluto">Pluto</h2>
-				<p>Tiny, cold and incredibly distant, Pluto was discovered in 1930 and long considered to be the ninth planet. But after the discoveries of similar intriguing worlds even farther out, Pluto was reclassified as a dwarf planet. This new class of worlds may offer some of the best evidence of the origins of our solar system.</p>
-				</li>
 			</ul>
 			
 		</section>
@@ -155,6 +154,10 @@
 	<script src='//s3-us-west-2.amazonaws.com/s.cdpn.io/141228/OrbitControls.js'></script>
 	<script src='//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js'></script>
 	<script src="/assets/js/script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
 

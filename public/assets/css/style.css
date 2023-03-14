@@ -1,8 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
+  scroll-behavior: smooth;
   }
   
+  *{
+    scroll-behavior: smooth;
+  }
   canvas {
 	position: absolute;
 	margin-top: -1800px;
@@ -12,7 +16,7 @@ body {
   
   
   
-  /* Please ❤ this if you like it! */
+
   
   
   @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -970,9 +974,10 @@ top: 79px;
 
 ul#descriptions {
     position: absolute;
-    top: 1300px;
+    top: 1350px;
     right: 100px;
     list-style: none;
+	font-family: 'Space Grotesk';
 }
 ul#descriptions h2 {
     cursor: pointer;
@@ -992,7 +997,7 @@ ul#descriptions h2 {
 	margin-bottom: -15px;
 }
 ul#descriptions h2:hover {
-   color: #aa4200; 
+   color: white; 
     -webkit-transform: scale(1.08);
     -moz-transform: scale(1.08);
     -o-transform: scale(1.08);
