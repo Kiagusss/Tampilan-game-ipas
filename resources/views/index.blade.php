@@ -18,6 +18,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script></title>
+
+	<style>
+		/* width */
+		::-webkit-scrollbar {
+		  width: 10px;
+		}
+		
+		/* Track */
+		::-webkit-scrollbar-track {
+		  box-shadow: inset 0 0 5px grey; 
+		  border-radius: 5px;
+		}
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: white; 
+		  border-radius: 5px;
+		}
+		
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: white 50%; 
+		}
+		</style>
 </head>
 <body>
 
@@ -65,14 +89,14 @@
 			
 		  </div>
 		  
-		  <div class="solar-system items-center flex flex-col mt-[30%]" style="" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true">
-			<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;" >This Is What Our Solar System Look Alike</h1>
-			<div  id="solar-system" class="mt-[-200px]"></div>
-		  </div>
+		
 		 
 	  </div>
 	  
-
+	  <div class="solar-system items-center flex flex-col mt-[30%]" style="" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true">
+		<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;" >This Is What Our Solar System Look Alike</h1>
+		<div  id="solar-system" class="mt-[-200px]"></div>
+	  </div>
 	  
 	  <div class='cursor' id="cursor"></div>
 		<div class='cursor2' id="cursor2"></div>
@@ -144,6 +168,83 @@
 		</section>
 		
 
+		<div class="planet flex flex-col ">
+			<div class="title-planet mt-[15%] m-auto" >
+				<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Planets In Our Solar System</h1>
+			</div>
+			<div class="merkurius mt-[10%] flex">
+				<div class="text-merkurius ml-[10%]">
+					<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Mercury</h1>
+					<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">Mercury is the smallest planet in our solar system, and it is also the closest planet to the sun. It is named after the Roman messenger god, Mercury, who was known for his speed, which is appropriate since the planet Mercury moves very quickly in its orbit around the sun.
+
+						Mercury is a rocky planet, with a heavily cratered surface similar to the Earth's moon. It has a diameter of approximately 4,880 kilometers (3,032 miles), which is about one-third the diameter of Earth. Due to its proximity to the sun, Mercury experiences extreme temperature fluctuations, with surface temperatures ranging from -173°C (-280°F) at night to 427°C (800°F) during the day.
+						
+						</h2>
+				</div>
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/77713a8337f44e5b86d87e482fce5088/embed"  width="500px" height="500px" class="ml-[20%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+			</div>
+			<div class="venus mt-[10%] flex">
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/0e37b5bb3fbc4d3da134b0a5494fe14c/embed"  width="500px" height="500px" class="ml-[30%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+					<div class="text-venus ml-[10%]">
+						<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Venus</h1>
+						<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">Venus is a planet in our solar system that is known for its thick atmosphere made up mostly of carbon dioxide. It is often referred to as the Earth's sister planet because of its similar size and composition. It is a terrestrial planet with a rocky surface, and it is the second planet from the sun. Venus has a slow rotation on its axis, taking 243 Earth days to complete one rotation. Its thick atmosphere creates a greenhouse effect that traps heat, making it the hottest planet in our solar system. Despite its proximity to Earth and its brightness in the sky, Venus is a harsh and inhospitable world, with a surface temperature hot enough to melt lead.
+							</h2>
+					</div>
+			</div>
+			<div class="bumi mt-[10%] flex">
+				<div class="text-bumi ml-[10%]">
+					<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Earth</h1>
+					<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">
+						Earth is a unique and diverse planet in our solar system that is well-suited to support life as we know it. It is a terrestrial planet with a solid and rocky surface, covered with oceans, forests, deserts, and other biomes. The planet's surface is constantly changing due to natural processes like erosion, tectonic activity, and volcanic eruptions.
+
+						Earth has a thin atmosphere that contains a mix of gases, including oxygen, nitrogen, and carbon dioxide. The atmosphere plays a critical role in regulating the planet's temperature and protecting life from harmful radiation from space. It also allows for the cycling of water and other important elements like carbon and nitrogen, which are essential for life.
+						</h2>
+				</div>
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/41fc80d85dfd480281f21b74b2de2faa/embed"  width="500px" height="500px" class="ml-[20%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+			</div>
+			<div class="mars mt-[10%] flex">
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/5fc8b7168b044527a05ed3903c998b65/embed"  width="500px" height="500px" class="ml-[30%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+					<div class="text-mars ml-[10%]">
+						<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Mars</h1>
+						<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">Mars is the fourth planet from the Sun and is often referred to as the Red Planet because of its reddish appearance in the night sky. It is a terrestrial planet with a rocky surface and a thin atmosphere that is mostly composed of carbon dioxide. Mars has a fascinating history, with evidence suggesting that liquid water once flowed on its surface, and scientists continue to study the planet for signs of past or present life.
+							</h2>
+					</div>
+			</div>
+			<div class="jupiter mt-[10%] flex">
+				<div class="text-jupiter ml-[10%]">
+					<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Jupiter</h1>
+					<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">
+						Jupiter is the fifth planet from the Sun and is the largest planet in our solar system. It is a gas giant planet, with no solid surface, and a thick atmosphere composed mostly of hydrogen and helium. Jupiter has a complex system of moons and rings, and it is known for its giant storms, including the famous Great Red Spot, a storm larger than the size of the Earth.
+						</h2>
+				</div>
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/61671f29ca0a4fa39dc9653290282418/embed"  width="500px" height="500px" class="ml-[20%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+			</div>
+			<div class="saturnus mt-[10%] flex">
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/81bcb0c25c4f4e03bb7387e7bfbd44f7/embed"  width="500px" height="500px" class="ml-[30%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+					<div class="text-saturnus ml-[10%]">
+						<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Saturn</h1>
+						<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">Saturn is the sixth planet from the Sun and is another gas giant planet, with a similar composition to Jupiter. It is known for its spectacular system of rings, made up of ice particles and debris. Saturn also has numerous moons, with its largest moon, Titan, being the only moon in the solar system with a dense atmosphere and a stable liquid on its surface.
+							</h2>
+					</div>
+			</div>
+			<div class="uranus mt-[10%] flex">
+				<div class="text-uranus ml-[10%]">
+					<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Uranus</h1>
+					<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">
+						Uranus is the seventh planet from the Sun and is an ice giant planet, with a thick atmosphere composed mostly of hydrogen, helium, and methane. It is tilted on its side, causing its axis of rotation to be nearly parallel to the plane of its orbit. Uranus also has a system of rings and moons, including the interesting moon Miranda, with its unique geological features.
+						</h2>
+				</div>
+				<div class="sketchfab-embed-wrapper"> <iframe title="Earthss" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b488282fa28344009fa8c8cdb3384456/embed"  width="500px" height="500px" class="ml-[20%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+			</div>
+			<div class="neptunus mt-[10%] flex">
+				<div class="sketchfab-embed-wrapper"> <iframe title="" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/947a405a0a4348f9a49ff4bd3ed3cc4b/embed"  width="500px" height="500px" class="ml-[30%]"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </div>
+					<div class="text-neptunus ml-[10%]">
+						<h1 class="text-[3.5vw] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Neptune</h1>
+						<h2 style="font-family: 'Space Grotesk'; font-weight: 600; width: 800px" class="text-[1.5vw] text-justify mt-[20px]">Neptune is the eighth and farthest planet from the Sun, and it is also an ice giant planet. It has a thick atmosphere, similar to Uranus, and its blue color is caused by the presence of methane in its atmosphere. Neptune has a system of rings and moons, including its largest moon Triton, which is the coldest object in the solar system, with a temperature of -235 degrees Celsius.
+							</h2>
+					</div>
+			</div>
+		</div>
 	</div>
 	
 
