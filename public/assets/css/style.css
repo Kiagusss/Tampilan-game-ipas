@@ -3,13 +3,14 @@ body {
 	padding: 0;
   scroll-behavior: smooth;
   }
+
   
   *{
     scroll-behavior: smooth;
   }
   canvas {
 	position: absolute;
-	margin-top: -1800px;
+	margin-top: -7450px;
 	z-index: -9;
 	margin-left: -30%
   }
@@ -727,6 +728,7 @@ ul.solarsystem {
     -o-transition: all 0.09s ease-in;
     transition: all 0.09s ease-in;
     overflow: hidden;
+    margin-top: -200px;
 }
 ul.solarsystem li {
     text-indent: -9999px;
@@ -1073,6 +1075,16 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
 
 
 .clearfix{
-	margin-top: 370px;
+	margin-top: 170px;
 	margin-left: 20%;
 }
+
+#subjudul-title2:hover{ 
+  color: white;
+  transition: all 500ms linear;
+}
+
+#subjudul-title2:not(:hover) {
+  transition: all 500ms linear;
+}
+
