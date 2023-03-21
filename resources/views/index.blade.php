@@ -63,18 +63,18 @@
 		<div class="nav">
 		  <div class="nav__content">
 			<ul class="nav__list">
-			  <li class="nav__list-item active-nav"><a href="#" class="hover-target">Home</a></li>
+			  <li class="nav__list-item active-nav"><a href="#hero" class="hover-target">Home</a></li>
 			  <li class="nav__list-item"><a href="#solar-system" class="hover-target">Solar-System</a></li>
-			  <li class="nav__list-item"><a href="#" class="hover-target">Planet</a></li>
-			  <li class="nav__list-item"><a href="#" class="hover-target">Game</a></li>
-			  <li class="nav__list-item"><a href="#" class="hover-target">About</a></li>
+			  <li class="nav__list-item"><a href="#planet" class="hover-target">Planet</a></li>
+			  <li class="nav__list-item"><a href="#games" class="hover-target">Game</a></li>
+			  <li class="nav__list-item"><a href="#about" class="hover-target">About</a></li>
 			</ul>
 		  </div>
 		</div>
 		
 	
 	
-		<div class="hero full-height ">
+		<div class="hero full-height " id="hero">
 		  <div class="title">
 			<h1 class=" pt-[0.3vw] cursor-pointer text-[5vw] ml-[38vw] animate__animated animate__fadeIn " id="titles" style="font-family: 'space grotesk'; font-weight: 500;">Awesomic</h1>
 			<h1 class="hover-target mt-[-1.4vw] cursor-pointer text-[2vw] ml-[40.9vw] w-[20vw] animate__animated animate__fadeIn  animate__delay-1s" id="mean-title" style="font-family: 'space grotesk'; font-weight: 500;">{Awesome Cosmic}</h1>
@@ -93,7 +93,7 @@
 		 
 	  </div>
 	  
-	  <div class="solar-system items-center flex flex-col mt-[30%]" style="" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true">
+	  <div class="solar-system items-center flex flex-col mt-[30%]" style="" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="500"  data-aos-once="true" id="solar-system">
 		<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;" >This Is What Our Solar System Look Alike</h1>
 		<div  id="solar-system" class="mt-[-200px]"></div>
 	  </div>
@@ -168,7 +168,7 @@
 		</section>
 		
 
-		<div class="planet flex flex-col ">
+		<div class="planet flex flex-col" id="planet">
 			<div class="title-planet mt-[15%] m-auto" >
 				<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Planets In Our Solar System</h1>
 			</div>
@@ -244,6 +244,27 @@
 							</h2>
 					</div>
 			</div>
+		</div>
+
+		<div class="games flex flex-col" id="games">
+			<div class="title-games mt-[15%] m-auto" >
+				<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Try Our Games</h1>
+			</div>
+			<a href="https://play.unity.com/mg/other/webgl-builds-325024" class="mt-[5%]">
+				<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+				<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_tbwn0lpb.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px; position: absolute; margin-left: 700px; margin-top: 150px"  loop  autoplay ></lottie-player>
+				<img src="assets/image/Game-logo.jpg" alt="" srcset="" class="m-auto " id="gambar-game"  width="800px" height="500px" >
+			</a>
+		</div>
+		<div class="about flex flex-col" id="about">
+			<div class="title-about mt-[15%] m-auto">
+				<h1 class="text-[3.5vw] mt-[-10%] animate__animated animate__fadeIn animate__slower animate__delay-5s"  style="font-family: 'Space Grotesk'; font-weight: 600; --animate-delay:2s;">Meet Our Team</h1>
+			</div>
+			<img src="assets/image/Poci-fullteam.png" alt="" srcset="" width="700px" height="700px" style="margin: auto; margin-top: 100px">
+		</div>
+
+		<div class="footer" style="border: solid 1px black">
+			
 		</div>
 	</div>
 	
